@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #232229;
+}
+
+header {
+    background-color: #FFFBF7;
+    color: #232229;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 400;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav a {
+    color: #232229;
+    text-decoration: none;
+}
+.end-icons{
+    margin: 10px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+
+#search {
+    padding: 8px;
+    width: 200px; 
+    box-sizing: border-box;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    fill: currentColor;
+}
+.main-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #f5ebe1;
+}
+.instagram{
+    font-weight: 700;
+
+}
+.paraline{
+    display: inline;
+}
+.image{
+    background-color: orangered;
+    margin: 10px;
+    object-fit: cover;
+}
+.main-container{
+    background-color: #f5ebe1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    background-color: black;
+    width: 132px;
+    height: 30px;
+    color: white;
+    border-radius: 1px;
+    border-width: 0;
+
+}
+.button2{
+    background-color: transparent;
+    color: #232229;
+    width: 132px;
+    height:30px;
+}
+.small-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5ebe1;
+}
+.shirts{
+    background-color: orange;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    object-fit: cover;
+            
+
+}
+.hoodies{
+    background-color: skyblue;
+}
+.textpara{
+    font-weight: bold;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #232229;
+}
+
+header {
+    background-color: #FFFBF7;
+    color: #232229;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 400;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav a {
+    color: #232229;
+    text-decoration: none;
+}
+
+.end-icons {
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav {
+        margin-top: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+
+#search {
+    padding: 8px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    fill: currentColor;
+}
+.new-arr{
+    font-weight: 800;
+    color: #232229;
+    text-align: center;
+}
+h1{
+    text-align: center;
+
+}
