@@ -90,9 +90,21 @@ img {
 
 .button1,
 .button2 {
-    width: 100%; 
-}
+    width: 45%; 
 
+}
+.button1{
+    background-color: #232229;
+    color: aliceblue;
+    border-radius: 1px;
+    border-width: 0;
+}
+.button2{
+    background-color: transparent;
+    color: black;
+    border-radius: 1px;
+    border-width: 3px;
+}
 .small-container {
     display: flex;
     flex-wrap: wrap; 
