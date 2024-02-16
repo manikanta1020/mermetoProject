@@ -1,0 +1,145 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #232229;
+    background-color: #FFFBF7;
+}
+
+header {
+    background-color: #FFFBF7;
+    color: #232229;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 400;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav a {
+    color: #232229;
+    text-decoration: none;
+}
+
+.end-icons {
+    margin: 10px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+
+#search {
+    padding: 8px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    fill: currentColor;
+}
+
+.main-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5ebe1;
+}
+
+.instagram {
+    font-weight: 400;
+}
+
+.paraline {
+    display: inline;
+}
+
+img {
+    background-color: orangered;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.button1,
+.button2 {
+    width: 100%; 
+}
+
+.small-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    background-color: #f5ebe1;
+}
+
+.shirts,
+.hoodies,
+.textpara {
+    flex: 1; 
+    text-align: center;
+}
+
+.image {
+    width: 100%; 
+}
+
+.new-arr {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    header nav {
+        margin-top: 1rem;
+    }
+
+    .search-container {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+}
